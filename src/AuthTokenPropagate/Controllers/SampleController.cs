@@ -8,7 +8,7 @@ namespace AuthTokenPropagate.Controllers
 {
     [Route("api/[controller]")]
     [Authorize]
-    public class SampleController : Controller
+    public class SampleController : ControllerBase
     {
         private readonly IHttpClientFactory _httpClientFactory;
 
